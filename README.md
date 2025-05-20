@@ -16,3 +16,11 @@ There are 64 squares on a chessboard.
 Write a program that shows
 - how many grains were on each square, and
 - the total number of grains
+
+To run the specs follow these commands:
+- first install the required node modules to run the tests
+````npm install````
+- to run in the command line run
+````npm test -- spec/grains.spec.js````
+### or, via the custom script in package.json
+````npm run answer````
